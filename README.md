@@ -3,16 +3,16 @@
 
 Для начала работы создайте экземпляр класса User или Post:
 
-$user = new User();
-$post = new Post();
+<b>$user = new User();<br>
+$post = new Post();</b>
 
 Далее обратитесь к методам и введите id нужного пользователя (для класса User):
 
-$user->getUser(10);<br>
+<b>$user->getUser(10);<br>
 $user->getPosts(10);<br>
-$user->getTasks(10);<br>
+$user->getTasks(10);<br></b>
 
 Или введите данные для новой записи и id пользователя (для класса Post):
 
-$post->addPost('Заголовок', 'Текст', 10);
+<b>$post->addPost('Заголовок', 'Текст', 10);</b>
 
