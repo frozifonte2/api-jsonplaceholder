@@ -8,9 +8,9 @@ $post = new Post();
 
 Далее обратитесь к методам и введите id нужного пользователя (для класса User):
 
-$user->getUser(10);
-$user->getPosts(10);
-$user->getTasks(10);
+$user->getUser(10);<br>
+$user->getPosts(10);<br>
+$user->getTasks(10);<br>
 
 Или введите данные для новой записи и id пользователя (для класса Post):
 
